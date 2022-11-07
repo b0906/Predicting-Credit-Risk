@@ -6,6 +6,9 @@ I use this data to create machine learning models to classify the risk level of 
 
 ## Steps
 * Retrieve the data.
-* Import the data using Pandas.
-* Consider the models
+* Import the data using Pandas: Read the CSV file into a Pandas DataFrame.
+* Consider the models : 
+1. Split the data into X_train, X_test, y_train, y_test.
+2. Train a Logistic Regression model print the model score.
+3. Train a Random Forest Classifier model and print the model score.
 
